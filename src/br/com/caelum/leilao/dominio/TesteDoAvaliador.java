@@ -28,7 +28,6 @@ public class TesteDoAvaliador {
 		double menorEsperado = 250;
 		
 		Assert.assertEquals(maiorEsperado, leiloeiro.getMaiorLance(), 0.00001);
-		
 		Assert.assertEquals(menorEsperado, leiloeiro.getMenorLance(), 0.00001);
 	}
 
